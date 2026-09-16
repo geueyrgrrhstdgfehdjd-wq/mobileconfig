@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css"><title>NEXTRA Admin</title>
+</head>
+<body><div class="bg"></div><main class="shell admin">
+<section class="card">
+<div class="eyebrow">NEXTRA ADMIN</div><h1>Backend Dashboard</h1>
+<p class="muted">Server-side key management starter.</p>
+<div class="row"><input id="adminKey" class="input" placeholder="ADMIN KEY"><button id="adminLogin" class="primary">LOGIN</button></div>
+<div id="adminMsg" class="msg"></div>
+</section>
+<section id="dash" class="card hidden">
+<div class="stats"><div><span>Keys</span><b id="keyCount">0</b></div><div><span>Active</span><b id="activeCount">0</b></div><div><span>Users</span><b id="userCount">0</b></div></div>
+<h2>Generate Keys</h2>
+<div class="row">
+<select id="duration" class="input"><option value="1">1 Day</option><option value="7">7 Days</option><option value="30">30 Days</option><option value="0">Lifetime</option></select>
+<input id="quantity" class="input" type="number" min="1" max="100" value="1">
+<button id="generate" class="primary">GENERATE</button>
+</div>
+pre id="generated" class="code"></pre>
+<h2>Key Manager</h2><div id="keys" class="key-list"></div>
+</section></main><script src="admin.js"></script></body></html>
