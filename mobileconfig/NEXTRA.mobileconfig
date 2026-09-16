@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>PayloadContent</key><array>
+<dict>
+<key>FullScreen</key><true/>
+<key>IsRemovable</key><true/>
+<key>Label</key><string>NEXTRA</string>
+<key>PayloadDescription</key><string>NEXTRA Web App shortcut</string>
+<key>PayloadDisplayName</key><string>NEXTRA Web Clip</string>
+<key>PayloadIdentifier</key><string>com.nextra.webclip</string>
+<key>PayloadOrganization</key><string>NEXTRA</string>
+<key>PayloadType</key><string>com.apple.webClip.managed</string>
+<key>PayloadUUID</key><string>7D4F2A9C-7A4D-4F5B-9C4D-1A8A2F3E7B11</string>
+<key>PayloadVersion</key><integer>1</integer>
+<key>URL</key><string>https://YOUR-DOMAIN.example/</string>
+</dict></array>
+<key>PayloadDisplayName</key><string>NEXTRA</string>
+<key>PayloadIdentifier</key><string>com.nextra.profile</string>
+<key>PayloadOrganization</key><string>NEXTRA</string>
+<key>PayloadRemovalDisallowed</key><false/>
+<key>PayloadType</key><string>Configuration</string>
+<key>PayloadUUID</key><string>9A3B8F1C-2D6E-45F7-AB8D-5C1E3F7A9B20</string>
+<key>PayloadVersion</key><integer>1</integer>
+</dict></plist>
