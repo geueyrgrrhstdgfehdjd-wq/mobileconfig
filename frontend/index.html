@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#07111f">
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+<title>NEXTRA</title>
+</head>
+<body>
+<div class="bg"></div>
+<main class="shell">
+  <section id="login" class="card login-card">
+    <div class="brand-mark">N</div>
+    <div class="eyebrow">NEXTRA SYSTEM</div>
+    <h1>Access Panel</h1>
+    <p class="muted">Enter your access key to continue.</p>
+    <input id="keyInput" class="input" autocomplete="off" placeholder="ENTER KEY">
+    <button id="verifyBtn" class="primary">VERIFY KEY</button>
+    <div id="loginMsg" class="msg"></div>
+  </section>
+
+  <section id="panel" class="hidden">
+    <div class="topbar">
+      <div><div class="eyebrow">NEXTRA</div><h2>Control Panel</h2></div>
+      <button id="logoutBtn" class="ghost">LOGOUT</button>
+    </div>
+    <div class="timer-card">
+      <div><span class="label">KEY STATUS</span><strong id="statusText">ACTIVE</strong></div>
+      <div class="timer" id="timer">--:--:--</div>
+      <div class="muted small" id="expiryText"></div>
+    </div>
+    <div class="grid">
+      <button class="feature active" data-feature="Body"><span class="icon">◉</span><b>Body</b><small>Body configuration</small></button>
+      <button class="feature" data-feature="Neck"><span class="icon">◎</span><b>Neck</b><small>Neck configuration</small></button>
+      <button class="feature" data-feature="Drag"><span class="icon">✦</span><b>Drag</b><small>Drag configuration</small></button>
+      <button class="feature" data-feature="Box"><span class="icon">▣</span><b>Box</b><small>Box configuration</small></button>
+    </div>
+    <div id="featureMsg" class="msg"></div>
+    <p class="notice">Feature controls are UI placeholders. This package does not modify another app's private files.</p>
+  </section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
