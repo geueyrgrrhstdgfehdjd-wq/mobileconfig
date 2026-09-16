@@ -1,0 +1,9 @@
+{
+  "name": "NEXTRA",
+  "short_name": "NEXTRA",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#050b14",
+  "theme_color": "#07111f",
+  "icons": []
+}
