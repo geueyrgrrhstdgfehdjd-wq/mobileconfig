@@ -5,5 +5,5 @@ services:
     buildCommand: npm install
     startCommand: npm start
     envVars:
-      - key: NEXTRA_ADMIN_KEY
+      - key: CEO8787GH
         sync: false
